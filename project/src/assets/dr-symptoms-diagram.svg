@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg-gradient)"/>
+  
+  <!-- Normal Vision -->
+  <g transform="translate(50,50)">
+    <circle cx="100" cy="100" r="80" fill="#fff" stroke="#333" stroke-width="2"/>
+    <circle cx="100" cy="100" r="30" fill="#16a34a"/>
+    <circle cx="100" cy="100" r="12" fill="#000"/>
+    <text x="100" y="220" text-anchor="middle" fill="#333" font-size="16">Normal Vision</text>
+  </g>
+
+  <!-- Early DR -->
+  <g transform="translate(300,50)">
+    <circle cx="100" cy="100" r="80" fill="#fff" stroke="#333" stroke-width="2"/>
+    <circle cx="100" cy="100" r="30" fill="#16a34a"/>
+    <circle cx="100" cy="100" r="12" fill="#000"/>
+    <circle cx="70" cy="70" r="4" fill="#dc2626"/>
+    <circle cx="130" cy="90" r="4" fill="#dc2626"/>
+    <text x="100" y="220" text-anchor="middle" fill="#333" font-size="16">Early Stage DR</text>
+  </g>
+
+  <!-- Advanced DR -->
+  <g transform="translate(550,50)">
+    <circle cx="100" cy="100" r="80" fill="#fff" stroke="#333" stroke-width="2"/>
+    <circle cx="100" cy="100" r="30" fill="#16a34a"/>
+    <circle cx="100" cy="100" r="12" fill="#000"/>
+    <circle cx="70" cy="70" r="4" fill="#dc2626"/>
+    <circle cx="130" cy="90" r="4" fill="#dc2626"/>
+    <circle cx="90" cy="130" r="4" fill="#dc2626"/>
+    <path d="M60,80 Q100,120 140,80" fill="none" stroke="#dc2626" stroke-width="2"/>
+    <rect x="70" y="110" width="60" height="20" fill="#000" opacity="0.3"/>
+    <text x="100" y="220" text-anchor="middle" fill="#333" font-size="16">Advanced DR</text>
+  </g>
+</svg>
